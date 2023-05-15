@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="bg-primary py-4 -z-10">
+			<div class="container">
+				<div class="flex justify-between items-center">
+					<h1 class="font-bold text-text text-2xl">
+						<a href="#">Mizu<span class="text-secondaryYellow">store</span></a>
+					</h1>
+					<ul class="text-white flex justify-center gap-2 items-center">
+						<li class="text-sm">
+							<box-icon name="search" color="#ffffff" size="1.5rem"></box-icon>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- End header -->
+
+		<!-- Image Banner -->
+
+		<section class="w-full h-[10rem]">
+			<div class="w-full h-full overflow-hidden">
+				<img
+					src="../img/hanabi.jpg"
+					alt=""
+					class="w-full h-full object-cover"
+				/>
+			</div>
+		</section>
+
+		<!-- Image Banner -->
+
+		<section class="w-full bg-backgroundColor py-4">
+			<div class="container">
+				<h1 class="font-bold text-xl text-primary">
+					Mobile Legends: Bang Bang
+				</h1>
+				<p class="text-xs text-justify leading-4 opacity-80 py-1">
+					Codashop telah bekerja sama dengan Moonton untuk menawarkan top up
+					Mobile Legends dengan mudah, aman dan nyaman. Top up ML Diamond,
+					Twilight Pass and Weekly Pass
+				</p>
+				<a
+					href="#"
+					class="text-xs text-justify leading-4 font-bold underline text-primary"
+					>Baca Lebih lanjut</a
+				>
+			</div>
+		</section>
+		<section class="w-full bg-backgroundColor py-4">
+			<div class="container">
+				<div class="relative">
+					<h1
+						class="absolute left-2 font-bold text-text border-2 border-text flex justify-center items-center text-center top-6 bg-secondaryBlue w-[2rem] h-[2rem] rounded-full"
+					>
+						01
+					</h1>
+					<h3
+						class="bg-primary text-text text-center font-semibold py-2 rounded-t-md"
+					>
+						Masukan user id
+					</h3>
+				</div>
+				<div class="bg-text shadow-lg py-8">
+					<form class="flex overflow-hidden px-4 gap-2 justify-center">
+						<input
+							oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+							maxlength="10"
+							type="text"
+							placeholder="Masukan User id"
+							class="text-center font-semibold w-[12rem] py-2 text-xs border border-primary rounded-md"
+						/>
+						<input
+							oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+							maxlength="4"
+							type="text"
+							placeholder="Zone Id"
+							class="text-center font-semibold w-[6rem] py-2 text-xs border border-primary rounded-md"
+						/>
+					</form>
+					<div class="px-4 pt-4">
+						<p class="text-[10px] italic">
+							Untuk mengetahui User ID Anda, silakan klik menu profile dibagian
+							kiri atas pada menu utama game. User ID akan terlihat dibagian
+							bawah Nama Karakter Game Anda. Silakan masukkan User ID Anda untuk
+							menyelesaikan transaksi. Contoh : 12345678(1234).
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+	</body>
+</html>
