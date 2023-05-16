@@ -15,7 +15,9 @@
 	</head>
 	<body>
 		<!-- Header -->
-		<header class="bg-primary py-8 -z-10">
+		<header
+			class="bg-primary md:bg-hero py-8 -z-10 md:h-screen md:w-full md:bg-no-repeat md:bg-cover md:bg-opacity-30"
+		>
 			<div class="container">
 				<div class="flex justify-between items-center -mt-4">
 					<h1 class="font-bold text-text text-2xl">
@@ -36,8 +38,12 @@
 		</header>
 		<!-- End Header -->
 
+		<!-- End section -->
+
 		<!-- Search Section -->
-		<section class="w-full bg-backgroundColor z-10 -mt-4 rounded-t-md pb-8">
+		<section
+			class="w-full bg-backgroundColor z-10 -mt-4 rounded-t-md pb-8 md:hidden"
+		>
 			<div class="container">
 				<div class="bug">
 					<div
@@ -57,7 +63,7 @@
 
 		<!-- Menu Grid Section -->
 
-		<section class="w-full bg-backgroundColor rounded-t-md pb-8">
+		<section class="w-full bg-backgroundColor rounded-t-md pb-8 pt-8 md:-mt-4">
 			<div class="container">
 				<div class="grid grid-cols-4 gap-2">
 					<div class="h-24 flex justify-center">

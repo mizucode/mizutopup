@@ -7,6 +7,9 @@ module.exports = {
 			padding: "16px",
 		},
 		extend: {
+			backgroundImage: {
+				hero: "url('/img/hanabi.jpg')",
+			},
 			fontFamily: {
 				montserrat: ["Montserrat"],
 			},
