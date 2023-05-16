@@ -10,4 +10,7 @@ body {
 	.bug {
 		padding-top: 2rem;
 	}
+	.test {
+		@apply outline-none bg-blue-600 flex-1 font-bold text-primary;
+	}
 }
