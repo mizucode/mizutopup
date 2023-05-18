@@ -569,7 +569,7 @@ video {
 .card{
   margin-top: 0.5rem;
   height: 16rem;
-  width: 9rem;
+  width: 10rem;
   border-radius: 0.375rem;
   --tw-bg-opacity: 1;
   background-color: rgb(234 234 234 / var(--tw-bg-opacity));
@@ -603,10 +603,6 @@ video {
 
 .collapse{
   visibility: collapse;
-}
-
-.static{
-  position: static;
 }
 
 .absolute{
