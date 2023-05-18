@@ -17,7 +17,7 @@ body {
 
 @layer components {
 	.card {
-		@apply md:w-[12rem] w-40 md:h-[20rem] h-[16rem]  bg-secondaryGray rounded-md;
+		@apply md:w-[12rem] w-36 md:h-[20rem] h-[16rem]  bg-secondaryGray rounded-md shadow-md mt-2;
 	}
 	.card-image {
 		@apply w-full md:h-[16rem] h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md;
