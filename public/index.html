@@ -14,21 +14,65 @@
 		<header
 			class="bg-primary md:bg-hero py-8 -z-10 md:h-screen md:w-full md:bg-no-repeat md:bg-cover md:bg-opacity-30"
 		>
-			<div class="container">
+			<div class="container md:pt-4 md:px-14">
 				<div class="flex justify-between items-center -mt-4">
-					<h1 class="font-bold text-text text-2xl">
+					<h1 class="font-bold text-text text-2xl md:text-4xl">
 						<a href="#">Mizu<span class="text-secondaryYellow">store</span></a>
 					</h1>
+
+					<!-- Search responsive -->
+
+					<!-- End Search -->
+
 					<ul class="text-white flex justify-center gap-2 items-center">
+						<div
+							class="hidden md:flex self-end w-[40rem] items-center justify-between rounded-2xl py-2 bg-text border-2 border-secondaryDark"
+						>
+							<input
+								type="text"
+								placeholder="Cari game kesukaanmu..."
+								class="outline-none bg-transparent font-bold text-primary w-full h-full px-4"
+								id="search"
+							/>
+						</div>
 						<li class="text-sm">
-							<box-icon name="cart" color="#ffffff" size="1.5rem"></box-icon>
+							<i class="bx bx-cart md:text-4xl text-2xl"></i>
 						</li>
 						<li class="text-sm text-white">
 							<a href="#">
-								<box-icon color="#ffffff" size="1.2rem" name="bell"></box-icon
-							></a>
+								<i class="bx bxs-bell md:text-3xl text-2xl"></i>
+							</a>
 						</li>
 					</ul>
+				</div>
+
+				<div class="w-full h-full pt-24 hidden md:block">
+					<div
+						class="text-center text-text flex justify-center items-center flex-col"
+					>
+						<h1 class="font-bold text-4xl">
+							Website Top Up Game termurah se-Indonesia
+						</h1>
+						<p
+							class="flex justify-center items-center text-lg text-center w-[70%]"
+						>
+							Selamat datang disitus top up game terbaik! Kami menyediakan
+							layanan top up game dengan harga yang terjangkau dan proses yang
+							cepat
+						</p>
+					</div>
+				</div>
+				<div class="hidden md:block w-full h-full pt-4">
+					<div
+						class="text-center text-text flex justify-center items-center flex-col"
+					>
+						<h2 class="font-bold text-xl">Mau jadi reseller?</h2>
+						<a
+							href="#"
+							class="bg-secondaryBlue py-2 px-6 rounded-md font-bold text-base mt-2 hover:bg-primary"
+							>SIGN UP</a
+						>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -59,31 +103,37 @@
 
 		<!-- Menu Grid Section -->
 
-		<section class="w-full bg-backgroundColor rounded-t-md pb-8 pt-8 md:-mt-4">
+		<section
+			class="w-full bg-backgroundColor rounded-t-md py-8 md:pt-16 md:-mt-4"
+		>
 			<div class="container">
-				<div class="grid grid-cols-4 gap-2">
+				<div
+					class="grid grid-cols-4 md:grid-cols-8 gap-2 md:gap-0 md:bg-text md:py-6 md:shadow-md md:rounded-md"
+				>
 					<div class="h-24 flex justify-center">
-						<div class="w-12 flex flex-col items-center">
+						<div class="w-12 md:w-16 flex flex-col items-center">
 							<img
 								src="https://webstatic.hoyoverse.com/upload/static-resource/2022/12/05/52f00a6be48ee77f9755c8065886f99b_6696816711781569875.png?x-oss-process=image%2Fquality%2Cq_80%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp"
 								alt=""
 							/>
 							<div class="content">
-								<h1 class="text-center text-xs font-semibold text-primary">
+								<h1
+									class="text-center text-xs md:text-xl font-semibold text-primary"
+								>
 									MIZUBOX
 								</h1>
 							</div>
 						</div>
 					</div>
 					<div class="h-20 flex justify-center">
-						<div class="w-12 flex flex-col items-center">
+						<div class="w-12 md:w-16 flex flex-col items-center">
 							<img
 								src="https://webstatic.hoyoverse.com/upload/op-public/2022/08/04/eaac1cc05bb7e4102595d217b05fde20_3545560780709862630.png?x-oss-process=image%2Fquality%2Cq_80%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp"
 								alt=""
 							/>
 							<div class="content">
 								<h1
-									class="text-center text-xs font-semibold text-primary leading-4"
+									class="text-center text-xs md:text-xl font-semibold text-primary leading-4 md:leading-[16px]"
 								>
 									Promo Menarik
 								</h1>
@@ -91,14 +141,14 @@
 						</div>
 					</div>
 					<div class="h-20 flex justify-center">
-						<div class="w-12 flex flex-col items-center">
+						<div class="w-12 md:w-16 flex flex-col items-center">
 							<img
 								src="https://upload-os-bbs.hoyolab.com/upload/2023/02/20/f9b1d968594e18684d36884cff01a9de_508965325310327814.png?x-oss-process=image%2Fquality%2Cq_80%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp"
 								alt=""
 							/>
 							<div class="content">
 								<h1
-									class="text-center text-xs font-semibold text-primary leading-4"
+									class="text-center text-xs md:text-xl font-semibold text-primary leading-4 md:leading-[16px]"
 								>
 									Voucher Game
 								</h1>
@@ -106,14 +156,14 @@
 						</div>
 					</div>
 					<div class="h-20 flex justify-center">
-						<div class="w-12 flex flex-col items-center">
+						<div class="w-12 md:w-16 flex flex-col items-center">
 							<img
 								src="https://webstatic.hoyoverse.com/upload/op-public/2022/08/04/47a1d15958531397e733abcbfceaad35_1250354074216960329.png?x-oss-process=image%2Fquality%2Cq_80%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp"
 								alt=""
 							/>
 							<div class="content">
 								<h1
-									class="text-center text-xs font-semibold text-primary leading-4"
+									class="text-center text-xs md:text-xl font-semibold text-primary leading-4 md:leading-[16px]"
 								>
 									Mobile Game
 								</h1>
@@ -121,27 +171,29 @@
 						</div>
 					</div>
 					<div class="h-20 flex justify-center">
-						<div class="w-12 flex flex-col items-center">
+						<div class="w-12 md:w-16 flex flex-col items-center">
 							<img
 								src="https://upload-os-bbs.hoyolab.com/upload/2022/10/27/d89f481dfaf15980d53726e9710873c4_4434595937766600334.png?x-oss-process=image%2Fquality%2Cq_80%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp"
 								alt=""
 							/>
 							<div class="content">
-								<h1 class="text-center text-xs font-semibold text-primary">
+								<h1
+									class="text-center text-xs md:text-xl font-semibold text-primary"
+								>
 									Aplikasi
 								</h1>
 							</div>
 						</div>
 					</div>
 					<div class="h-20 flex justify-center">
-						<div class="w-12 flex flex-col items-center">
+						<div class="w-12 md:w-16 flex flex-col items-center">
 							<img
 								src="https://webstatic.hoyoverse.com/upload/op-public/2022/08/04/f474ba482f38a2f2420dc31c1876d155_6640492607556311675.png?x-oss-process=image%2Fquality%2Cq_80%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp"
 								alt=""
 							/>
 							<div class="content">
 								<h1
-									class="text-center text-xs font-semibold text-primary leading-4"
+									class="text-center text-xs md:text-xl font-semibold text-primary leading-4"
 								>
 									Pulsa
 								</h1>
@@ -149,27 +201,29 @@
 						</div>
 					</div>
 					<div class="h-20 flex justify-center">
-						<div class="w-12 flex flex-col items-center">
+						<div class="w-12 md:w-16 flex flex-col items-center">
 							<img
 								src="https://upload-os-bbs.hoyolab.com/upload/2023/04/14/8e72620ef6afa97c8d4b9cc76aa691ca_8526865697008732974.png?x-oss-process=image%2Fquality%2Cq_80%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp"
 								alt=""
 							/>
 							<div class="content">
-								<h1 class="text-center text-xs font-semibold text-primary">
+								<h1
+									class="text-center text-xs md:text-xl font-semibold text-primary"
+								>
 									Reseller
 								</h1>
 							</div>
 						</div>
 					</div>
 					<div class="h-20 flex justify-center">
-						<div class="w-12 flex flex-col items-center">
+						<div class="w-12 md:w-16 flex flex-col items-center">
 							<img
 								src="https://webstatic.hoyoverse.com/upload/static-resource/2022/12/05/52f00a6be48ee77f9755c8065886f99b_6696816711781569875.png?x-oss-process=image%2Fquality%2Cq_80%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp"
 								alt=""
 							/>
 							<div class="content">
 								<h1
-									class="text-center text-xs font-semibold text-primary leading-4"
+									class="text-center text-xs md:text-xl font-semibold text-primary leading-4 md:leading-[16px]"
 								>
 									Menu Lainnya
 								</h1>
@@ -186,15 +240,13 @@
 			<div class="container">
 				<div class="container bg-white pb-10 rounded-md shadow-sm">
 					<div>
-						<div class="py-2">
-							<h1 class="font-bold">✨Promo Terbatas</h1>
+						<div class="py-4">
+							<h1 class="font-bold text-xl">✨Promo Terbatas</h1>
 						</div>
 						<div class="flex gap-1 flex-wrap justify-between">
-							<div class="w-40 h-[16rem] bg-secondaryGray rounded-md">
-								<a href="./mobile-legend.html">
-									<div
-										class="w-full h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md"
-									>
+							<div class="card">
+								<a href="">
+									<div class="card-image">
 										<img
 											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
 											alt=""
@@ -206,11 +258,9 @@
 									</h1>
 								</a>
 							</div>
-							<div class="w-40 h-[16rem] bg-secondaryGray rounded-md">
+							<div class="card">
 								<a href="">
-									<div
-										class="w-full h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md"
-									>
+									<div class="card-image">
 										<img
 											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
 											alt=""
@@ -222,11 +272,9 @@
 									</h1>
 								</a>
 							</div>
-							<div class="w-40 h-[16rem] bg-secondaryGray rounded-md">
+							<div class="card">
 								<a href="">
-									<div
-										class="w-full h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md"
-									>
+									<div class="card-image">
 										<img
 											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
 											alt=""
@@ -238,21 +286,45 @@
 									</h1>
 								</a>
 							</div>
-							<div class="w-40 h-[16rem] bg-secondaryGray">
+							<div class="card">
 								<a href="">
-									<div
-										class="w-full h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md"
-									>
+									<div class="card-image">
 										<img
-											src="../img/hsr.jpg"
+											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
 											alt=""
 											class="w-full h-full object-cover"
 										/>
 									</div>
-									<h1
-										class="text-sm leading-4 text-primary font-bold text-center pt-2"
-									>
-										Honkai Star Rail
+									<h1 class="text-sm font-bold text-center pt-2">
+										Legenda Seluler
+									</h1>
+								</a>
+							</div>
+							<div class="card">
+								<a href="">
+									<div class="card-image">
+										<img
+											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
+											alt=""
+											class="w-full h-full object-cover"
+										/>
+									</div>
+									<h1 class="text-sm font-bold text-center pt-2">
+										Legenda Seluler
+									</h1>
+								</a>
+							</div>
+							<div class="card">
+								<a href="">
+									<div class="card-image">
+										<img
+											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
+											alt=""
+											class="w-full h-full object-cover"
+										/>
+									</div>
+									<h1 class="text-sm font-bold text-center pt-2">
+										Legenda Seluler
 									</h1>
 								</a>
 							</div>
@@ -264,19 +336,18 @@
 		<!-- Promo terbatas -->
 
 		<!-- Template untuk postingan -->
-		<section class="w-full bg-backgroundColor rounded-t-md pt-4 pb-8">
+		<section class="w-full bg-backgroundColor rounded-t-md py-8">
 			<div class="container">
-				<div class="container bg-white pb-10 rounded-md shadow-sm">
+				<div class="container bg-white py-4 rounded-md shadow-sm">
 					<div>
-						<div class="py-2">
-							<h1 class="font-bold">😎Lebih hemat pakai Mizupoint</h1>
+						<div class="pb-4">
+							<h1 class="font-bold text-2xl">😎Mizupoint</h1>
+							<p class="text-xs">Dijamin paling hemat di Mizustore</p>
 						</div>
-						<div class="flex gap-1 flex-wrap justify-between">
-							<div class="w-40 h-[16rem] bg-secondaryGray rounded-md">
+						<div class="flex md:gap-4 gap-1 flex-wrap justify-between">
+							<div class="card">
 								<a href="">
-									<div
-										class="w-full h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md"
-									>
+									<div class="card-image">
 										<img
 											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
 											alt=""
@@ -288,11 +359,9 @@
 									</h1>
 								</a>
 							</div>
-							<div class="w-40 h-[16rem] bg-secondaryGray rounded-md">
+							<div class="card">
 								<a href="">
-									<div
-										class="w-full h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md"
-									>
+									<div class="card-image">
 										<img
 											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
 											alt=""
@@ -304,11 +373,9 @@
 									</h1>
 								</a>
 							</div>
-							<div class="w-40 h-[16rem] bg-secondaryGray rounded-md">
+							<div class="card">
 								<a href="">
-									<div
-										class="w-full h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md"
-									>
+									<div class="card-image">
 										<img
 											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
 											alt=""
@@ -320,11 +387,9 @@
 									</h1>
 								</a>
 							</div>
-							<div class="w-40 h-[16rem] bg-secondaryGray rounded-md">
+							<div class="card">
 								<a href="">
-									<div
-										class="w-full h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md"
-									>
+									<div class="card-image">
 										<img
 											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
 											alt=""
@@ -336,11 +401,9 @@
 									</h1>
 								</a>
 							</div>
-							<div class="w-40 h-[16rem] bg-secondaryGray rounded-md">
+							<div class="card">
 								<a href="">
-									<div
-										class="w-full h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md"
-									>
+									<div class="card-image">
 										<img
 											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
 											alt=""
@@ -352,21 +415,101 @@
 									</h1>
 								</a>
 							</div>
-							<div class="w-40 h-[16rem] bg-secondaryGray">
+							<div class="card">
 								<a href="">
-									<div
-										class="w-full h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md"
-									>
+									<div class="card-image">
 										<img
-											src="../img/hsr.jpg"
+											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
 											alt=""
 											class="w-full h-full object-cover"
 										/>
 									</div>
-									<h1
-										class="text-sm leading-4 text-primary font-bold text-center pt-2"
-									>
-										Honkai Star Rail
+									<h1 class="text-sm font-bold text-center pt-2">
+										Legenda Seluler
+									</h1>
+								</a>
+							</div>
+							<div class="card">
+								<a href="">
+									<div class="card-image">
+										<img
+											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
+											alt=""
+											class="w-full h-full object-cover"
+										/>
+									</div>
+									<h1 class="text-sm font-bold text-center pt-2">
+										Legenda Seluler
+									</h1>
+								</a>
+							</div>
+							<div class="card">
+								<a href="">
+									<div class="card-image">
+										<img
+											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
+											alt=""
+											class="w-full h-full object-cover"
+										/>
+									</div>
+									<h1 class="text-sm font-bold text-center pt-2">
+										Legenda Seluler
+									</h1>
+								</a>
+							</div>
+							<div class="card">
+								<a href="">
+									<div class="card-image">
+										<img
+											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
+											alt=""
+											class="w-full h-full object-cover"
+										/>
+									</div>
+									<h1 class="text-sm font-bold text-center pt-2">
+										Legenda Seluler
+									</h1>
+								</a>
+							</div>
+							<div class="card">
+								<a href="">
+									<div class="card-image">
+										<img
+											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
+											alt=""
+											class="w-full h-full object-cover"
+										/>
+									</div>
+									<h1 class="text-sm font-bold text-center pt-2">
+										Legenda Seluler
+									</h1>
+								</a>
+							</div>
+							<div class="card">
+								<a href="">
+									<div class="card-image">
+										<img
+											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
+											alt=""
+											class="w-full h-full object-cover"
+										/>
+									</div>
+									<h1 class="text-sm font-bold text-center pt-2">
+										Legenda Seluler
+									</h1>
+								</a>
+							</div>
+							<div class="card">
+								<a href="">
+									<div class="card-image">
+										<img
+											src="https://dafunda.com/wp-content/uploads/2022/06/Kata-kata-angela-Mobile-Legends-1.jpg"
+											alt=""
+											class="w-full h-full object-cover"
+										/>
+									</div>
+									<h1 class="text-sm font-bold text-center pt-2">
+										Legenda Seluler
 									</h1>
 								</a>
 							</div>
@@ -385,7 +528,7 @@
 		<!-- Section About Mizustore -->
 		<section class="w-full bg-secondaryBlue pt-4 pb-8">
 			<div class="container">
-				<div class="text-text text-center pt-8">
+				<div class="text-text text-center pt-8 container">
 					<h1 class="text-3xl font-bold text-center text-text">
 						Mizu<span class="text-secondaryYellow">store</span> Indonesia
 					</h1>
@@ -393,7 +536,7 @@
 						Mizustore: Website top-up terbesar, tercepat dan terpercaya di
 						indonesia
 					</h2>
-					<p class="pt-4">
+					<p class="pt-4 px-4">
 						Website top up game ini dibuat hanya untuk keperluan tugas kuliah
 						dan bukan untuk tujuan komersial. Segala transaksi dan uang virtual
 						yang digunakan hanya bersifat simulasi dan tidak ada hubungannya

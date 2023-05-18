@@ -8,7 +8,7 @@ module.exports = {
 		},
 		extend: {
 			backgroundImage: {
-				hero: "url('/img/hanabi.jpg')",
+				hero: "url('/img/hanabi-01.png')",
 			},
 			fontFamily: {
 				montserrat: ["Montserrat"],
