@@ -17,9 +17,25 @@ body {
 
 @layer components {
 	.card {
-		@apply md:w-[12rem] w-40 md:h-[20rem] h-[16rem]  bg-secondaryGray rounded-md shadow-md mt-2;
+		@apply md:w-[13rem] lg:w-[15rem] w-40 md:h-[24rem] h-[16rem]  bg-secondaryGray rounded-md shadow-sm mt-2;
 	}
 	.card-image {
-		@apply w-full md:h-[16rem] h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md;
+		@apply w-full md:h-[20rem] h-[13rem] bg-secondaryBlue overflow-hidden rounded-t-md;
+	}
+	.card-title {
+		@apply text-sm md:text-xl font-bold text-center pt-2;
+	}
+}
+
+@layer components {
+	.accordion-header {
+		@apply py-4 px-6 cursor-pointer;
+	}
+	.accordion-header.active i {
+		@apply transition ease-in-out duration-300;
+		transform: rotateX(180deg);
+	}
+	.accordion-body {
+		@apply max-h-0 overflow-hidden transition-all duration-200 ease-out;
 	}
 }
