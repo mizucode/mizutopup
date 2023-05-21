@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<!-- Header -->
-		<header class="bg-primary py-2 -z-10">
+		<header class="bg-primary py-2 z-10 fixed w-full top-0">
 			<div class="container">
 				<div class="flex justify-between items-center">
 					<h1 class="font-bold text-text text-2xl">
@@ -25,240 +25,252 @@
 				</div>
 			</div>
 		</header>
+
 		<!-- End header -->
 
 		<!-- Image Banner -->
 
-		<section class="w-full h-[10rem]">
-			<div class="w-full h-full overflow-hidden">
-				<img
-					src="../img/hanabi.jpg"
-					alt=""
-					class="w-full h-full object-cover"
-				/>
-			</div>
-		</section>
-
 		<!-- Image Banner -->
 
-		<section class="w-full bg-backgroundColor py-4">
-			<div class="container">
-				<h1 class="font-bold text-xl text-primary">
-					Mobile Legends: Bang Bang
-				</h1>
-				<p class="text-xs text-justify leading-4 opacity-80 py-1">
-					Codashop telah bekerja sama dengan Moonton untuk menawarkan top up
-					Mobile Legends dengan mudah, aman dan nyaman. Top up ML Diamond,
-					Twilight Pass and Weekly Pass
-				</p>
-				<a
-					href="#"
-					class="text-xs text-justify leading-4 font-bold underline text-primary"
-					>Baca Lebih lanjut</a
-				>
-			</div>
-		</section>
-		<section class="w-full bg-backgroundColor py-4">
-			<div class="container">
-				<div class="relative">
-					<h1
-						class="absolute left-2 font-bold text-text border-2 border-text flex justify-center items-center text-center top-6 bg-secondaryBlue w-[2rem] h-[2rem] rounded-full"
-					>
-						01
-					</h1>
-					<h3
-						class="bg-primary text-text text-center font-semibold py-2 rounded-t-md"
-					>
-						Masukan user id
-					</h3>
-				</div>
-				<div class="bg-text shadow-sm py-8 rounded-b-md">
-					<form class="flex overflow-hidden px-4 gap-2 justify-center">
-						<input
-							oninput="this.value = this.value.replace(/[^0-9]/g, '')"
-							maxlength="10"
-							type="text"
-							placeholder="Masukan User id"
-							class="text-center font-semibold w-[12rem] py-2 text-xs border border-primary rounded-md"
-						/>
-						<input
-							oninput="this.value = this.value.replace(/[^0-9]/g, '')"
-							maxlength="4"
-							type="text"
-							placeholder="Zone Id"
-							class="text-center font-semibold w-[6rem] py-2 text-xs border border-primary rounded-md"
-						/>
-					</form>
-					<div class="px-3 pt-4">
-						<p class="text-xs italic text-justify leading-4 opacity-80">
-							Untuk mengetahui User ID Anda, silakan klik menu profile dibagian
-							kiri atas pada menu utama game. User ID akan terlihat dibagian
-							bawah Nama Karakter Game Anda. Silakan masukkan User ID Anda untuk
-							menyelesaikan transaksi. Contoh : 12345678(1234).
-						</p>
+		<section class="lg:flex lg:pt-4 lg:bg-backgroundColor">
+			<section class="Deskripsi">
+				<section class="w-full bg-backgroundColor pb-4">
+					<div class="lg:px-[16px]">
+						<section class="w-full h-[15rem]">
+							<div class="w-full h-full overflow-hidden">
+								<img
+									src="../img/luoyi.jpg"
+									alt=""
+									class="w-full h-full object-cover"
+								/>
+							</div>
+						</section>
+						<div class="px-[16px] lg:px-0 pt-[16px]">
+							<h1 class="font-bold text-2xl text-primary">
+								Mobile Legends: Bang Bang
+							</h1>
+							<p class="text-xs text-justify leading-4 opacity-80 py-1">
+								Mizustore telah bekerja sama dengan Moonton untuk menawarkan top
+								up Mobile Legends dengan mudah, aman dan nyaman. Top up ML
+								Diamond, Twilight Pass and Weekly Pass
+							</p>
+							<a
+								href="#"
+								class="text-xs text-justify leading-4 font-bold underline text-primary"
+								>Baca Lebih lanjut</a
+							>
+						</div>
 					</div>
-				</div>
-			</div>
-		</section>
-		<section class="w-full bg-backgroundColor py-4">
-			<div class="container">
-				<div class="relative">
-					<h1
-						class="absolute left-2 font-bold text-text border-2 border-text flex justify-center items-center text-center top-6 bg-secondaryBlue w-[2rem] h-[2rem] rounded-full"
-					>
-						02
-					</h1>
-					<h3
-						class="bg-primary text-text text-center font-semibold py-2 rounded-t-md"
-					>
-						Pilih Nominal Top Up
-					</h3>
-				</div>
-				<div class="bg-text shadow-sm py-8 rounded-b-md">
-					<div class="flex justify-center items-center flex-wrap w-full gap-2">
-						<div
-							class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
-							id="button"
-						>
-							<div
-								class="w-full h-full flex justify-center items-center flex-col"
+				</section>
+			</section>
+
+			<section>
+				<section class="w-full bg-backgroundColor py-4 lg:py-0">
+					<div class="container">
+						<div class="relative">
+							<h1
+								class="absolute left-2 font-bold text-text border-2 border-text flex justify-center items-center text-center top-6 bg-secondaryBlue w-[2rem] h-[2rem] rounded-full"
 							>
-								<img
-									src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
-									alt=""
-									width="50"
-								/>
-								<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
-								<h3
-									class="text-center font-semibold text-secondaryBlue text-xs"
-								>
-									Rp. 39.000
-								</h3>
-							</div>
+								01
+							</h1>
+							<h3
+								class="bg-primary text-text text-center font-semibold py-2 rounded-t-md"
+							>
+								Masukan user id
+							</h3>
 						</div>
-						<div
-							class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
-							id="button"
-						>
-							<div
-								class="w-full h-full flex justify-center items-center flex-col"
-							>
-								<img
-									src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
-									alt=""
-									width="50"
+						<div class="bg-text shadow-sm py-8 rounded-b-md">
+							<form class="flex overflow-hidden px-4 gap-2 justify-center">
+								<input
+									oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+									maxlength="10"
+									type="text"
+									placeholder="Masukan User id"
+									class="text-center font-semibold w-[12rem] py-2 text-xs border border-primary rounded-md"
 								/>
-								<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
-								<h3
-									class="text-center font-semibold text-secondaryBlue text-xs"
-								>
-									Rp. 39.000
-								</h3>
-							</div>
-						</div>
-						<div
-							class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
-							id="button"
-						>
-							<div
-								class="w-full h-full flex justify-center items-center flex-col"
-							>
-								<img
-									src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
-									alt=""
-									width="50"
+								<input
+									oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+									maxlength="4"
+									type="text"
+									placeholder="Zone Id"
+									class="text-center font-semibold w-[6rem] py-2 text-xs border border-primary rounded-md"
 								/>
-								<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
-								<h3
-									class="text-center font-semibold text-secondaryBlue text-xs"
-								>
-									Rp. 39.000
-								</h3>
-							</div>
-						</div>
-						<div
-							class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
-							id="button"
-						>
-							<div
-								class="w-full h-full flex justify-center items-center flex-col"
-							>
-								<img
-									src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
-									alt=""
-									width="50"
-								/>
-								<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
-								<h3
-									class="text-center font-semibold text-secondaryBlue text-xs"
-								>
-									Rp. 39.000
-								</h3>
+							</form>
+							<div class="px-3 pt-4">
+								<p class="text-xs italic text-justify leading-4 opacity-80">
+									Untuk mengetahui User ID Anda, silakan klik menu profile
+									dibagian kiri atas pada menu utama game. User ID akan terlihat
+									dibagian bawah Nama Karakter Game Anda. Silakan masukkan User
+									ID Anda untuk menyelesaikan transaksi. Contoh :
+									12345678(1234).
+								</p>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</section>
-		<section class="w-full bg-backgroundColor py-4">
-			<div class="container">
-				<div class="relative">
-					<h1
-						class="absolute left-2 font-bold text-text border-2 border-text flex justify-center items-center text-center top-6 bg-secondaryBlue w-[2rem] h-[2rem] rounded-full"
-					>
-						04
-					</h1>
-					<h3
-						class="bg-primary text-text text-center font-semibold py-2 rounded-t-md"
-					>
-						Konfirmasi Pembelian
-					</h3>
-				</div>
-				<div class="bg-text shadow-sm py-8 rounded-b-md">
-					<form
-						class="flex overflow-hidden px-4 gap-2 justify-between items-center"
-					>
-						<label
-							for="nowa"
-							class="font-bold text-sm text-secondaryDark opacity-80 whitespace-nowrap"
-							>Masukan No wa</label
-						>
-						<input
-							id="nowa"
-							oninput="this.value = this.value.replace(/[^0-9]/g, '')"
-							maxlength="10"
-							type="text"
-							placeholder="Masukan User id"
-							class="text-center font-semibold w-[12rem] py-2 text-xs border border-primary rounded-md"
-						/>
-					</form>
-					<div class="flex px-4 justify-between pt-4">
-						<h1
-							class="font-bold text-sm text-secondaryDark opacity-80 whitespace-nowrap"
-						>
-							Total Tagihan
-						</h1>
-						<h1
-							class="font-bold text-sm text-secondaryBlue opacity-80 whitespace-nowrap"
-						>
-							Rp. 79.000
-						</h1>
+				</section>
+				<section class="w-full bg-backgroundColor py-4">
+					<div class="container">
+						<div class="relative">
+							<h1
+								class="absolute left-2 font-bold text-text border-2 border-text flex justify-center items-center text-center top-6 bg-secondaryBlue w-[2rem] h-[2rem] rounded-full"
+							>
+								02
+							</h1>
+							<h3
+								class="bg-primary text-text text-center font-semibold py-2 rounded-t-md"
+							>
+								Pilih Nominal Top Up
+							</h3>
+						</div>
+						<div class="bg-text shadow-sm py-8 rounded-b-md">
+							<div
+								class="flex justify-center items-center flex-wrap w-full gap-2"
+							>
+								<div
+									class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
+									id="button"
+								>
+									<div
+										class="w-full h-full flex justify-center items-center flex-col"
+									>
+										<img
+											src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
+											alt=""
+											width="50"
+										/>
+										<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
+										<h3
+											class="text-center font-semibold text-secondaryBlue text-xs"
+										>
+											Rp. 39.000
+										</h3>
+									</div>
+								</div>
+								<div
+									class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
+									id="button"
+								>
+									<div
+										class="w-full h-full flex justify-center items-center flex-col"
+									>
+										<img
+											src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
+											alt=""
+											width="50"
+										/>
+										<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
+										<h3
+											class="text-center font-semibold text-secondaryBlue text-xs"
+										>
+											Rp. 39.000
+										</h3>
+									</div>
+								</div>
+								<div
+									class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
+									id="button"
+								>
+									<div
+										class="w-full h-full flex justify-center items-center flex-col"
+									>
+										<img
+											src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
+											alt=""
+											width="50"
+										/>
+										<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
+										<h3
+											class="text-center font-semibold text-secondaryBlue text-xs"
+										>
+											Rp. 39.000
+										</h3>
+									</div>
+								</div>
+								<div
+									class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
+									id="button"
+								>
+									<div
+										class="w-full h-full flex justify-center items-center flex-col"
+									>
+										<img
+											src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
+											alt=""
+											width="50"
+										/>
+										<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
+										<h3
+											class="text-center font-semibold text-secondaryBlue text-xs"
+										>
+											Rp. 39.000
+										</h3>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="px-3 pt-4">
-						<button
-							class="bg-secondaryBlue px-32 py-2 rounded-md font-bold text-white hover:bg-primary"
-						>
-							Konfirmasi
-						</button>
+				</section>
+				<section class="w-full bg-backgroundColor py-4">
+					<div class="container">
+						<div class="relative">
+							<h1
+								class="absolute left-2 font-bold text-text border-2 border-text flex justify-center items-center text-center top-6 bg-secondaryBlue w-[2rem] h-[2rem] rounded-full"
+							>
+								04
+							</h1>
+							<h3
+								class="bg-primary text-text text-center font-semibold py-2 rounded-t-md"
+							>
+								Konfirmasi Pembelian
+							</h3>
+						</div>
+						<div class="bg-text shadow-sm py-8 rounded-b-md">
+							<form
+								class="flex overflow-hidden px-4 gap-2 justify-between items-center"
+							>
+								<label
+									for="nowa"
+									class="font-bold text-sm text-secondaryDark opacity-80 whitespace-nowrap"
+									>Masukan No wa</label
+								>
+								<input
+									id="nowa"
+									oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+									maxlength="10"
+									type="text"
+									placeholder="Contoh: 0812111111111"
+									class="text-center font-semibold w-[12rem] py-2 text-xs border border-primary rounded-md"
+								/>
+							</form>
+							<div class="flex px-4 justify-between pt-4">
+								<h1
+									class="font-bold text-sm text-secondaryDark opacity-80 whitespace-nowrap"
+								>
+									Total Tagihan
+								</h1>
+								<h1
+									class="font-bold text-sm text-secondaryBlue opacity-80 whitespace-nowrap"
+								>
+									Rp. 79.000
+								</h1>
+							</div>
+							<div class="px-3 pt-4">
+								<button
+									class="bg-secondaryBlue px-32 py-2 rounded-md font-bold text-white hover:bg-primary"
+								>
+									Konfirmasi
+								</button>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
+				</section>
+			</section>
 		</section>
 
 		<!-- Footer -->
 		<section class="w-full bg-secondaryBlue pt-4 pb-8">
 			<div class="container">
-				<div class="text-text text-center pt-8">
+				<div class="text-text text-center py-8">
 					<h1 class="text-3xl font-bold text-center text-text">
 						Mizu<span class="text-secondaryYellow">store</span> Indonesia
 					</h1>
@@ -266,32 +278,151 @@
 						Mizustore: Website top-up terbesar, tercepat dan terpercaya di
 						indonesia
 					</h2>
-					<p class="pt-4">
+					<p class="pt-4 text-center lg:w-3/4 mx-auto lg:text-base">
 						Website top up game ini dibuat hanya untuk keperluan tugas kuliah
-						dan bukan untuk tujuan komersial. Segala transaksi dan uang virtual
-						yang digunakan hanya bersifat simulasi dan tidak ada hubungannya
-						dengan uang nyata. Segala kemiripan dengan website atau layanan yang
-						sebenarnya tidak disengaja. Ehe te nandayooo!?
+						dan bukan untuk tujuan komersial. <br />
+						Segala transaksi dan uang virtual yang digunakan hanya bersifat
+						simulasi dan tidak ada hubungannya dengan uang nyata. Segala
+						kemiripan dengan website atau layanan yang sebenarnya tidak
+						disengaja. Ehe te nandayooo!?
 					</p>
 				</div>
 			</div>
 		</section>
+		<!-- End Section About Mizustore -->
+
+		<!-- Accordion Section -->
+		<section class="w-full bg-backgroundColor pt-4 pb-8">
+			<div class="container">
+				<div>
+					<div class="py-4">
+						<h1 class="text-center font-bold lg:text-2xl">
+							Pertanyaan yang sering ditanyakan
+						</h1>
+					</div>
+					<div class="max-w-2xl mx-auto">
+						<div class="bg-white rounded-md border-2">
+							<div class="accordion-header flex items-center justify-between">
+								<span class="font-semibold text-lg">Tau gak?</span>
+								<i class="bx bx-chevron-down text-3xl"></i>
+							</div>
+							<div class="accordion-body">
+								<div class="p-4 border-t">
+									<p>Gak Tau</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Accordion 2 -->
+					<div class="max-w-2xl mx-auto mt-2">
+						<div class="bg-white rounded-md border-2">
+							<div class="accordion-header flex items-center justify-between">
+								<span class="font-semibold text-lg"
+									>Apakah Mizustore Aman?</span
+								>
+								<i class="bx bx-chevron-down text-3xl"></i>
+							</div>
+							<div class="accordion-body">
+								<div class="p-4 border-t">
+									<p>Gak Tau</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Accordion 3 -->
+					<div class="max-w-2xl mx-auto mt-2">
+						<div class="bg-white rounded-md border-2">
+							<div class="accordion-header flex items-center justify-between">
+								<span class="font-semibold text-lg"
+									>Apakah Mizustore Aman?</span
+								>
+								<i class="bx bx-chevron-down text-3xl"></i>
+							</div>
+							<div class="accordion-body">
+								<div class="p-4 border-t">
+									<p>Gak Tau</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- End Accordion -->
+
+		<!-- Contact Us  -->
+
+		<section class="w-full bg-secondaryYellow pt-4 pb-8">
+			<div class="container">
+				<div>
+					<div class="">
+						<h1 class="mb-1 font-semibold text-base text-left text-primary">
+							Butuh Bantuan?
+						</h1>
+						<a
+							href="#"
+							class="py-2 px-4 bg-secondaryGray bg-opacity-80 rounded-md text-xs text-left"
+						>
+							<i class="bx bx-message-dots"></i>
+							<label for="">Hubungi Kami</label>
+						</a>
+					</div>
+					<div class="my-4">
+						<h1 class="mb-1 font-semibold text-base text-left text-primary">
+							About Us
+						</h1>
+						<a
+							href="#"
+							class="py-2 px-4 bg-secondaryGray bg-opacity-80 rounded-md text-xs text-left"
+						>
+							<i class="bx bx-message-dots"></i>
+							<label for="">Hubungi Kami</label>
+						</a>
+					</div>
+					<div class="mt-4">
+						<h1 class="mb-1 font-semibold text-base text-left text-primary">
+							Dapatkan berita Mizu di :
+						</h1>
+						<div class="flex gap-2">
+							<i class="bx bxl-facebook-circle"></i>
+							<i class="bx bxl-youtube"></i>
+							<i class="bx bxl-instagram-alt"></i>
+							<i class="bx bxl-tiktok"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Us -->
+
+		<!-- Section -->
+		<footer class="bg-backgroundColor w-full pt-4 pb-8 lg:pb-2">
+			<div class="container">
+				<div class="lg:flex justify-start gap-8">
+					<a href="#" class="text-primary flex justify-center text-xs pb-2"
+						>&#169; Hak Cipta Mizu Payments
+					</a>
+					<ul
+						class="list-disc text-primary text-xs flex gap-4 justify-center flex-wrap"
+					>
+						<li><a href="#">Pemasaran dan Kemitraan</a></li>
+						<li><a href="#">Untuk Penerbit Game</a></li>
+					</ul>
+					<ul
+						class="list-disc text-primary text-xs flex gap-4 justify-center flex-wrap"
+					>
+						<li><a href="#">Syarat & Ketentuan</a></li>
+						<li><a href="#">Kebijakan Privasi</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
 		<!-- End Footer -->
 
 		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-		<script>
-			var buttons = document.querySelectorAll("#button");
-			buttons.forEach(function (button) {
-				button.addEventListener("click", function () {
-					buttons.forEach(function (btn) {
-						btn.classList.remove("border-secondaryBlue");
-						btn.classList.add("border-primary");
-					});
-
-					this.classList.remove("border-primary");
-					this.classList.add("border-secondaryBlue");
-				});
-			});
-		</script>
+		<script src="./js/main.js"></script>
+		<script></script>
 	</body>
 </html>
