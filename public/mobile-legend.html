@@ -33,11 +33,11 @@
 		<!-- Image Banner -->
 
 		<section class="lg:flex lg:pt-4 lg:bg-backgroundColor">
-			<section class="Deskripsi">
+			<section class="Deskripsi mt-12 lg:mt-16">
 				<section class="w-full bg-backgroundColor pb-4">
 					<div class="lg:px-[16px]">
 						<section class="w-full h-[15rem]">
-							<div class="w-full h-full overflow-hidden">
+							<div class="w-[30rem] h-[16rem] overflow-hidden">
 								<img
 									src="../img/luoyi.jpg"
 									alt=""
@@ -45,26 +45,51 @@
 								/>
 							</div>
 						</section>
-						<div class="px-[16px] lg:px-0 pt-[16px]">
+						<div class="px-[16px] lg:px-0 pt-8">
 							<h1 class="font-bold text-2xl text-primary">
 								Mobile Legends: Bang Bang
 							</h1>
-							<p class="text-xs text-justify leading-4 opacity-80 py-1">
-								Mizustore telah bekerja sama dengan Moonton untuk menawarkan top
-								up Mobile Legends dengan mudah, aman dan nyaman. Top up ML
-								Diamond, Twilight Pass and Weekly Pass
-							</p>
-							<a
-								href="#"
-								class="text-xs text-justify leading-4 font-bold underline text-primary"
-								>Baca Lebih lanjut</a
+							<p
+								class="text-xs max-w-xl text-justify leading-4 opacity-80 py-1"
 							>
+								Mizustore telah bekerja sama dengan Moonton untuk menawarkan top
+								up Mobile Legends dengan mudah, aman dan nyaman.
+							</p>
+							<button
+								id="myButton"
+								class="text-xs text-justify leading-4 font-bold underline text-primary lg:hidden"
+							>
+								Baca Lebih lanjut
+							</button>
+							<p
+								id="myParagraph"
+								class="text-xs max-w-xl text-justify leading-4 opacity-80 py-1 hidden lg:block"
+							>
+								Top up ML Diamond, Twilight Pass and Weekly Pass.hanya dalam
+								hitungan detik! Cukup masukan User ID dan Zone ID MLBB Anda,
+								pilih jumlah Diamond yang Anda inginkan, selesaikan pembayaran,
+								dan Diamond akan secara langsung ditambahkan ke akun Mobile
+								Legends Anda. Bayarlah menggunakan Codacash, GoPay, ShopeePay,
+								Dana, OVO, LinkAja, Telkomsel, Indosat, Tri, XL, Bank Transfer,
+								QRIS, Indomaret, Alfamart, Kredivo, Kartu Kredit, dan Doku
+								Wallet. Harga sudah termasuk PPN. Informasi tambahan, untuk
+								transaksi menggunakan Telkomsel akan dikenakan biaya tambahan
+								pajak PERINGATAN: Harga sudah termasuk PPN. Informasi tambahan,
+								untuk transaksi menggunakan Telkomsel akan dikenakan biaya
+								tambahan pajak Metode pembayaran ShopeePay hanya tersedia untuk
+								Pengguna Seluler (Mobile). Harap pastikan bahwa aplikasi Shopee
+								Anda telah diperbarui dan memiliki saldo ShopeePay yang
+								mencukupi sebelum melakukan top up. Sign in ke akun Codashop
+								Kamu dan dapatkan akses ke events & eksklusif promo Mobile
+								Legends. Belum punya akun Codashop? Daftar sekarang! Unduh dan
+								mainkan Mobile Legends: Bang Bang sekarang!
+							</p>
 						</div>
 					</div>
 				</section>
 			</section>
 
-			<section>
+			<section class="lg:mt-16">
 				<section class="w-full bg-backgroundColor py-4 lg:py-0">
 					<div class="container">
 						<div class="relative">
@@ -123,87 +148,143 @@
 							</h3>
 						</div>
 						<div class="bg-text shadow-sm py-8 rounded-b-md">
-							<div
-								class="flex justify-center items-center flex-wrap w-full gap-2"
-							>
-								<div
-									class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
-									id="button"
-								>
+							<div class="container w-[19rem] lg:w-full">
+								<div class="grid lg:grid-cols-4 grid-cols-2 gap-4">
 									<div
-										class="w-full h-full flex justify-center items-center flex-col"
+										class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md mx-auto"
+										id="button"
+										onclick="ubahHarga(19000)"
 									>
-										<img
-											src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
-											alt=""
-											width="50"
-										/>
-										<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
-										<h3
-											class="text-center font-semibold text-secondaryBlue text-xs"
+										<div
+											class="w-full h-full flex justify-center items-center flex-col"
 										>
-											Rp. 39.000
-										</h3>
+											<img
+												src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
+												alt=""
+												width="50"
+											/>
+											<h2 class="text-center font-bold text-xs">86 Diamonds</h2>
+											<h3
+												class="text-center font-semibold text-secondaryBlue text-xs"
+											>
+												Rp. 19.000
+											</h3>
+										</div>
 									</div>
-								</div>
-								<div
-									class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
-									id="button"
-								>
 									<div
-										class="w-full h-full flex justify-center items-center flex-col"
+										class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md mx-auto"
+										id="button"
+										onclick="ubahHarga(37000)"
 									>
-										<img
-											src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
-											alt=""
-											width="50"
-										/>
-										<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
-										<h3
-											class="text-center font-semibold text-secondaryBlue text-xs"
+										<div
+											class="w-full h-full flex justify-center items-center flex-col"
 										>
-											Rp. 39.000
-										</h3>
+											<img
+												src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
+												alt=""
+												width="50"
+											/>
+											<h2 class="text-center font-bold text-xs">
+												172 Diamonds
+											</h2>
+											<h3
+												class="text-center font-semibold text-secondaryBlue text-xs"
+											>
+												Rp. 37.000
+											</h3>
+										</div>
 									</div>
-								</div>
-								<div
-									class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
-									id="button"
-								>
 									<div
-										class="w-full h-full flex justify-center items-center flex-col"
+										class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md mx-auto"
+										id="button"
+										onclick="ubahHarga(56000)"
 									>
-										<img
-											src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
-											alt=""
-											width="50"
-										/>
-										<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
-										<h3
-											class="text-center font-semibold text-secondaryBlue text-xs"
+										<div
+											class="w-full h-full flex justify-center items-center flex-col"
 										>
-											Rp. 39.000
-										</h3>
+											<img
+												src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
+												alt=""
+												width="50"
+											/>
+											<h2 class="text-center font-bold text-xs">
+												257 Diamonds
+											</h2>
+											<h3
+												class="text-center font-semibold text-secondaryBlue text-xs"
+											>
+												Rp. 56.000
+											</h3>
+										</div>
 									</div>
-								</div>
-								<div
-									class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md"
-									id="button"
-								>
 									<div
-										class="w-full h-full flex justify-center items-center flex-col"
+										class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md mx-auto"
+										id="button"
+										onclick="ubahHarga(75000)"
 									>
-										<img
-											src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
-											alt=""
-											width="50"
-										/>
-										<h2 class="text-center font-bold text-xs">330 Diamonds</h2>
-										<h3
-											class="text-center font-semibold text-secondaryBlue text-xs"
+										<div
+											class="w-full h-full flex justify-center items-center flex-col"
 										>
-											Rp. 39.000
-										</h3>
+											<img
+												src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
+												alt=""
+												width="50"
+											/>
+											<h2 class="text-center font-bold text-xs">
+												344 Diamonds
+											</h2>
+											<h3
+												class="text-center font-semibold text-secondaryBlue text-xs"
+											>
+												Rp. 75.000
+											</h3>
+										</div>
+									</div>
+									<div
+										class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md mx-auto"
+										id="button"
+										onclick="ubahHarga(94000)"
+									>
+										<div
+											class="w-full h-full flex justify-center items-center flex-col"
+										>
+											<img
+												src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
+												alt=""
+												width="50"
+											/>
+											<h2 class="text-center font-bold text-xs">
+												429 Diamonds
+											</h2>
+											<h3
+												class="text-center font-semibold text-secondaryBlue text-xs"
+											>
+												Rp. 94.000
+											</h3>
+										</div>
+									</div>
+									<div
+										class="w-32 h-40 bg-backgroundColor border-2 border-primary rounded-md mx-auto"
+										id="button"
+										onclick="ubahHarga(117000)"
+									>
+										<div
+											class="w-full h-full flex justify-center items-center flex-col"
+										>
+											<img
+												src="https://cdn1.codashop.com/S/content/common/images/denom-image/MLBB/100x100/50ormore_MLBB_Diamonds.png"
+												alt=""
+												width="50"
+											/>
+											<h2 class="text-center font-bold text-xs">
+												514 Diamonds
+											</h2>
+											<h3
+												class="text-center font-semibold text-secondaryBlue text-xs"
+											>
+												Rp. 117.000
+											</h3>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -250,8 +331,9 @@
 								</h1>
 								<h1
 									class="font-bold text-sm text-secondaryBlue opacity-80 whitespace-nowrap"
+									id="totalHarga"
 								>
-									Rp. 79.000
+									Rp. 0
 								</h1>
 							</div>
 							<div class="px-3 pt-4">

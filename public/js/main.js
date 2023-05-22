@@ -35,3 +35,16 @@ window.addEventListener("scroll", function () {
 		navbar.classList.remove("sticky", "top-0");
 	}
 });
+
+function ubahHarga(harga) {
+	var hargaFormatted = harga.toLocaleString("id-ID");
+	document.getElementById("totalHarga").textContent = "Rp. " + hargaFormatted;
+}
+
+const button = document.getElementById("myButton");
+const paragraph = document.getElementById("myParagraph");
+
+button.addEventListener("click", () => {
+	button.style.display = "none";
+	paragraph.style.display = "block";
+});
